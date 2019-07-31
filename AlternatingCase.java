@@ -7,5 +7,7 @@ public class StringUtils {
     // iterate through string to check each char if caps or small case
     // flip the case and concatenate to the answer string
     // return the string
+    String[] charsSplit = string.split("");
+    System.out.println(charsSplit);
   }
 }
