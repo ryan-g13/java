@@ -1,13 +1,28 @@
 public class bank 
 {
+
+
   public static void main(String[] args) {
     
   }
 
-  // Class Methods: 
+  /* ----------------------------------- 
+  Class Methods:
+  // -----------------------------------
+  */
+
   // Add account
+  public Object addAccount(Object construction) {
+    return construction;
+  }
   // remove account
+  public String removeAccount() {
+    return "Your account has been removed from the system.";
+  }
   // login
+  public Object login(Object loginInfo) {
+    return loginInfo;
+  }
 
   // Data needed for a bank account
   // Account number - String
